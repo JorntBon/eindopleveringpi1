@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../assets/HelveticaNeue.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Stick No Bills';
+	src: url('../assets/StickNoBills-VariableFont_wght.ttf');
+}
+
+
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: rgb(255, 237, 229);
+	background-repeat: no-repeat;
+	background-position: 70% 90%;
+	margin: 5vh 5vw 5vh 5vw;
+}
+
+body {
+	background-image: url(../images/Achtergrond.svg) ;
+	background-size: 800px ;
+	background-position-y: 15em;
+}
+
+
+
+.none {
+	background-image: none;
+}
+
+h2 {
+    font-family: 'Stick No Bills';
+    font-size: 1.5em;
+	text-decoration: underline dashed rgb(99, 105, 172);
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+p {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.0em;
+	color: rgb(9, 8, 6);
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	top: 2em;
+}
+
+a {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: smaller;
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	border-top: groove 0.14em #ffffff;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.39em;
+	padding-bottom: 0.5em;
+}
+
+li {
+	display: inline-block;
+	padding: 0.25em;
+	justify-content: space-between;
+}
+
+
+section {
+    margin-top: 0.5em;
+    background-color: #6369ac6e;
+    border: groove 0.1em black;
+	height: 8em;
+}
+
+nav {
+	background-color: #6369AC;
+	position: fixed;
+	bottom: 0;
+	left: 0em;
+	right: 0em;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+}
+
+div {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-x: auto;
+    background-color: #6369ac6e;
+    border: groove 0.1em black;
+}
+
+.tijd {
+	grid-template-columns: none;
+	grid-template-rows: 1fr 1fr 1fr;
+	overflow-y: auto;
+	height: 9em;
+	margin-top: 3em;
+}
+
+
+
+
+.duration {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.1em;
+    position: fixed;
+    padding: 0.25em;
+    width: 15em;
+    left: 3em;
+    top: 6.8em;
+    background-color: #6369AC;
+    color: white;
+    border: groove 0.1em black;
+    box-shadow: 0px 3px 6px black;
+}
+
+.durationknop {
+	margin-top: 0em;
+}
+
+.amount {
+	font-family: 'Poppins';
+    font-size: 1.1em;
+    padding: 0.25em;
+    font-weight: 400;
+    width: 15em;
+    position: fixed;
+    left: 3em;
+    top: 17.6em;
+    background-color: #6369AC;
+    color: white;
+    border: groove 0.1em black;
+    box-shadow: 0px 3px 6px black;
+    z-index: 10;
+}
+
+div article button {
+	height: 10em;
+}
+
+.huidig {
+	border-radius: 10em;
+	border: groove black 0.02em;
+	background: #ffffff6a;
+	padding-bottom: 0.25em;
+	border-top-right-radius: 50em;
+	border-bottom-right-radius: 50em;
+}
+
+.huidig a {
+text-decoration: underline;
+text-shadow: 0px 2px 4px #6369AC;
+color: black;
+}
+
+.startknop {
+    position: absolute;
+    left: 4em;
+    bottom: 1.5em;
+    background-color: rgb(144, 192, 38);
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border-color: #90C026;
+    border-radius: 10em;
+}
+
+.welkomstlogo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 65%;
+	margin-bottom: 0.5em;
+}
+
+.welkomsth2 {
+	position: fixed;
+    top: 6em;
+    left: 0.5em;
+    font-size: 1.75em;
+	font-weight: 600;
+}
+
+
+
+header h1{
+	position: fixed;
+	font-size: 1em;
+	text-align: center;
+	width: 15em;
+	left: 6em;
+	top: 1em;
+	color: #6369AC ;
+}
+
+header a img:nth-of-type(1){
+	width: 7em;
+	position: fixed;
+	left: 1em;
+	top: 1em;
+}
+
+header img:nth-of-type(1){
+	width: 1.7em;
+	position: fixed;
+	right: 1em;
+	top: 1em;
+
+}
+
+header img:nth-of-type(2){
+    width: 3em;
+    position: fixed;
+    top: 2.5em;
+    left: 11em;
+}
+
+
+.welkomstbrug {
+	position: fixed;
+	left: 0em;
+	bottom: 1.75em;
+	z-index: -1;
+}
+
+.welkomsttekst {
+	position: fixed;
+	top: 16em;
+	left: 0;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+
+.stops {
+    position: inherit;
+    background-color: #90C026;
+    padding: 0.3em;
+    margin: 0.5em;
+    color: white;
+    border-radius: 50em;
+    box-shadow: 2px 2px 2px black;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Stick No Bills';
+}
+
+
+
+
+.map {
+	margin-top: 1em;
+	border: groove 0.01em black;
+
+}
+
+.stops:focus {
+	border-color: rgb(39, 244, 7);
+	border-width: 0.4em;
+	color: rgb(255, 255, 255);
+	background-color: #042409;
+	font-weight: 800;
+	font-style: italic;
+	box-shadow: none;
+	
+}
+
+section button article {
+	font-size: 1.35em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Stick No Bills';
+
+}
+
+
+
+.next {
+    background-color: #90C026;
+	position: fixed;
+	font-size: 2em;
+	bottom: 3em;
+	left: 3.75em;
+	width: 4em;
+    color: white;
+    border-color: #90C026;
+    border-radius: 10em;
+	box-shadow: 0px 2px 2px black;
+}
+
+
+
+header div {
+	border: none;
+	background: none;
+	width: auto;
+	border-bottom: dashed 0.1em #6369AC;
+	padding-top: 2em;
+}
+
+.stadsdeel {
+    background-color: #90C026;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: white;
+    border-radius: 5em;
+    box-shadow: 0px 2px 2px black;
+    font-family: 'Stick No Bills';
+    font-size: 1.5em;
+    font-weight: 500;
+    position: inherit;
+}
+
+
+.stadsdeel::first-letter {
+	color: black;
+}
+
+
+
+.stadsdeel:focus {
+	border-color: rgb(39, 244, 7);
+	border-width: 0.4em;
+	color: rgb(255, 255, 255);
+	background-color: #042409;
+	font-weight: 800;
+	font-style: italic;
+	box-shadow: none;
+	
+}
+
+
+.keuzesstad {
+	    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    margin-top: 0em;
+    overflow-y: auto;
+}
+
+div article button article {
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: 'Stick No Bills';
+}
+
+.district {
+margin-top: 0em;
+}
+
+
+.knop {
+	background-color: #90C026;
+	padding: 0.8em;
+	margin: 0.4em;
+    color: white;
+    border-color: #90C026;
+    border-radius: 10em;
+	box-shadow: 0px 2px 2px black;
+	font-size: 1.4em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	font-family: 'Stick No Bills';
+}
+
+.knop:active{
+	background-color: #2b3a0c;
+}
+
+.routetype {
+	display: unset;
+	border: none;
+}
+
+.show {
+	background-color: #90C026;
+    padding: 1em;
+    position: fixed;
+    bottom: 5em;
+    left: 6em;
+    font-size: 1.2em;
+    border-radius: 4em;
+    box-shadow: 0px 2px 4px black;
+}
+
+
+.gif {
+	width: 25em;
+    height: 15em;
+    position: fixed;
+    top: 13em;
+    left: 0em;
+}
+
+.sightseeing {
+    position: fixed;
+    top: 7.5em;
+    left: 2em;
+    width: 20em;
+}
+
+
+.result {
+	width: 5em;
+}
+
+.resultaten {
+	position: fixed;
+    top: 16em;
+    left: 1.5em;
+    height: 10em;
+    width: 14.3em;
+    overflow-y: auto;
+    border: 0.2em groove #6369AC;
+}
+
+.text {
+	font-family: 'Stick No Bills';
+    font-size: 0.8em;
+    align-items: flex-start;
+    text-align: unset;
+    top: 5em;
+    left: 6.5em;
+    width: 9.6em;
+}
+
+
+
+.onderdeel {
+	display: flow-root;
+    border: solid 0.2em #6369ac;
+    background-color: #6369ac54;
+}
+
+.caps {
+    position: relative;
+    top: 1em;
+    font-size: 1.5em;
+    color: rgb(255 255 255);
+    text-shadow: 0px 2px 4px black;
+}
+
+.save {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    padding: 1em;
+    background-color: #90C026;
+	border: none;
+    border-radius: 3em;
+    font-family: 'Stick No Bills';
+    font-size: 0.7em;
+    color: black;
+	box-shadow: 0px 2px 4px black;
+}
+
+.saveimg {
+	width: 1.5em;
+}
+
+.none {
+	display: unset;
+	padding: 0em;
+}
